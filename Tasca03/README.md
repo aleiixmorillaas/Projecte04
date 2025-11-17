@@ -93,4 +93,4 @@ Encara que la solució final dependrà de si el client accepta la vostra propost
   [https://www.incibe.es/empresas/blog/tienes-tu-plan-recuperacion-desastres](https://www.incibe.es/empresas/blog/tienes-tu-plan-recuperacion-desastres)
 
 * **Pàgina oficial de Rescuezilla**
-  *(Enllaç disponible mitjançant cerca al web del projecte.)*
+   [[https://www.incibe.es/empresas/blog/tienes-tu-plan-recuperacion-desastres](https://rescuezilla.com/)]
