@@ -1,7 +1,3 @@
-Aquí tens el text **passat a Markdown**, amb format net i professional:
-
----
-
 # **T05: Accés Remot — Connexió via SSH (Tasca Individual)**
 
 ## **Breu Descripció**
@@ -61,5 +57,3 @@ La guia ha de cobrir, com a mínim:
 
 * **Moodle 0227 Serveis de Xarxa — UD4.AA2 Pràctica SSH**
 * **Vídeo: SSH amb clau pública/privada** [https://www.youtube.com/watch?v=3JbJ_8fO5nM](https://www.youtube.com/watch?v=3JbJ_8fO5nM)
-Només demana-ho!
-
