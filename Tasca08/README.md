@@ -85,3 +85,4 @@ Ja esteu preparats per demostrar la vostra competència i assolir el nivell **SO
 * No es permet material digital ni consultes externes.
 
 Aquesta prova és el primer pas per ser considerats **consultors operatius** dins d’EverPia.
+![Captura0](Captura0.png)
