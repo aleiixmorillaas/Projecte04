@@ -6,7 +6,7 @@
 * Es tracta de **dominar forks, branques i pull requests**, no només pujar arxius.
 * Aquesta tasca reflecteix el **procés real d’onboarding i revisió de codi** a la consultora.
 
-
+![Captura000](Captura000.png)
 
 ## **Flux de Treball a EverPia**
 
