@@ -91,8 +91,6 @@ L’objectiu és mostrar al client:
 
 Aquest repositori explica exactament què has de fer i quins passos cal seguir per a la pràctica.
 
-[
-
 ---
 
 ## **Materials i Recursos de Suport**
@@ -105,11 +103,11 @@ Aquest repositori explica exactament què has de fer i quins passos cal seguir p
 
 * **Instal·lació del servidor NFS (Ubuntu 20.04)**
   Ruiz, P. (2021, novembre 22)
-  *SomeBooks.es*
+  [https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntu-20-04-lts/](https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntu-20-04-lts/)
 
 * **Instal·lació del client NFS (Ubuntu 20.04)**
   Ruiz, P. (2021, desembre 2)
-  *SomeBooks.es*
+  [https://somebooks.es/nfs-parte-2-instalacion-en-un-cliente-ubuntu-20-04-lts/](https://somebooks.es/nfs-parte-2-instalacion-en-un-cliente-ubuntu-20-04-lts/)
 
 * **Documentació oficial d’Ubuntu Server — NFS**
-  *Ubuntu Documentation*
+[https://documentation.ubuntu.com/server/how-to/networking/install-nfs/](https://documentation.ubuntu.com/server/how-to/networking/install-nfs/)
