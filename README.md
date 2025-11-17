@@ -259,34 +259,6 @@ Carpeta amb totes les tasques, informes, captures i manuals.
 ## **P03 — Presentació Final del Prototip (Figma)**
 
 Presentació oral i demostració del prototip navegable.
-
----
-
-# **TASQUES TRANSVERSALS (Metodologia i Qualitat)**
-
----
-
-## **TT1 — Revisió Setmanal (equip)**
-
-* Actualitzar estat de targetes
-* Detectar dependències i riscos
-* Resum a `Documents/acta_setmanal.md`
-
-## **TT2 — Retrospectiva del Projecte**
-
-* Insights tècnics
-* Pla d’accions
-* Publicació a `Documents/retrospectiva.md`
-
-## **TT3 — Definition of Done (DoD)**
-
-* Criteris de qualitat
-* Plantilles `.md`
-* Peer review abans de marcar com Fet
-
-## **TT4 — Traçabilitat i Ordre del Repositori**
-
-* Nomenclatura Txx/Pxx
 * Índexs i TOC
 * Verificació d’enllaços i captures
 
