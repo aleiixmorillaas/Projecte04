@@ -6,6 +6,8 @@
 * Es tracta de **dominar forks, branques i pull requests**, no només pujar arxius.
 * Aquesta tasca reflecteix el **procés real d’onboarding i revisió de codi** a la consultora.
 
+
+
 ## **Flux de Treball a EverPia**
 
 1. **Assignació de rols dins l’equip:**
