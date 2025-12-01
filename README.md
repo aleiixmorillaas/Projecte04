@@ -37,7 +37,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T01 — DRP: Anàlisi de Cas del Client**
+## **[T01 — DRP: Anàlisi de Cas del Client](Tasca01/README.md)**
 
 **Descripció:** Identificació d’actius crítics, riscos, dependències i definició RTO/RPO.
 **Checklist:**
