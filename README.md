@@ -52,7 +52,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T02 — DRP: Cas Pràctic i Estratègia**
+## **[T02 — DRP: Cas Pràctic i Estratègia](Tasca02/README.md)**
 
 **Descripció:** Desenvolupament d’un pla DRP complet per un escenari plantejat.
 **Checklist:**
@@ -67,7 +67,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T03 — Creació i Restauració d’Imatges (Rescuezilla)**
+## **[T03 — Creació i Restauració d’Imatges (Rescuezilla)](Tasca03/README.md)**
 
 **Descripció:** Creació i validació d’una imatge completa del sistema.
 **Checklist:**
@@ -81,7 +81,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T04 — Introducció a l’Accés Remot**
+## **[T04 — Introducció a l’Accés Remot](Tasca04/README.md)**
 
 **Descripció:** Continguts teòrics i usos de l’accés remot.
 **Checklist:**
@@ -94,7 +94,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T05 — Connexió Segura amb SSH**
+## **[T05 — Connexió Segura amb SSH](Tasca05/README.md)**
 
 **Descripció:** Configuració SSH amb claus en Windows i Linux.
 **Checklist:**
@@ -108,7 +108,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T06 — Escriptori Remot amb RDP**
+## **[T06 — Escriptori Remot amb RDP](Tasca06/README.md)**
 
 **Descripció:** Configuració bàsica de RDP en Windows.
 **Checklist:**
@@ -122,7 +122,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T07 — Escriptoris Remots i Assistència Remota**
+## **[T07 — Escriptoris Remots i Assistència Remota](Tasca07/README.md)**
 
 **Descripció:** Proves i comparativa d’AnyDesk, TeamViewer i Chrome Remote Desktop.
 **Checklist:**
@@ -135,7 +135,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T08 — Auditoria de Servidors**
+## **[T08 — Auditoria de Servidors](Tasca08/README.md)**
 
 **Descripció:** Estàndards corporatius, permisos, estructures i punts crítics.
 **Checklist:**
@@ -148,7 +148,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T09 — Servidor d’Arxius NFS**
+## **[T09 — Servidor d’Arxius NFS](Tasca09/README.md)**
 
 **Descripció:** Instal·lació i configuració d’un servidor NFS funcional.
 **Checklist:**
@@ -162,7 +162,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T10 — Servidor d’Impressió CUPS**
+## **[T10 — Servidor d’Impressió CUPS](Tasca10/README.md)**
 
 **Descripció:** Configuració bàsica d’un servidor CUPS.
 **Checklist:**
@@ -176,7 +176,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T11 — Introducció a Figma**
+## **[T11 — Introducció a Figma](Tasca11/README.md)**
 
 **Descripció:** Eines essencials: frames, components, tipografies i prototipat.
 **Checklist:**
@@ -190,7 +190,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T12 — Fonaments de Landing Page i Checkout**
+## **[T12 — Fonaments de Landing Page i Checkout](Tasca12/README.md)**
 
 **Descripció:** Teoria sobre estructura i procés de compra online.
 **Checklist:**
@@ -203,7 +203,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T13 — E-commerce: Maqueta amb Figma**
+## **[T13 — E-commerce: Maqueta amb Figma](Tasca13/README.md)**
 
 **Descripció:** Disseny complet de landing + checkout en Figma.
 **Checklist:**
@@ -218,7 +218,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T14 — Consum Responsable i Sostenibilitat**
+## **[T14 — Consum Responsable i Sostenibilitat](Tasca14/README.md)**
 
 **Descripció:** Reflexió escrita sobre sostenibilitat en IT.
 **Checklist:**
@@ -231,7 +231,7 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **T15 — Circularitat en la Família Professional**
+## **[T15 — Circularitat en la Família Professional](Tasca15/README.md)**
 
 **Descripció:** Aplicació de l’economia circular a SMX.
 **Checklist:**
@@ -248,15 +248,15 @@ Aquest repositori recull totes les tasques, documentació, prototips i productes
 
 ---
 
-## **P01 — Kanban del Projecte**
+## **[P01 — Kanban del Projecte](Producte01/README.md)**
 
 Captura final del tauler completament actualitzat (etiquetes, documents, fitxers, estats).
 
-## **P02 — Carpeta de Documentació**
+## **[P02 — Carpeta de Documentació](Producte02/README.md)**
 
 Carpeta amb totes les tasques, informes, captures i manuals.
 
-## **P03 — Presentació Final del Prototip (Figma)**
+## **[P03 — Presentació Final del Prototip (Figma)](Producte03/README.md)**
 
 Presentació oral i demostració del prototip navegable.
 * Índexs i TOC
