@@ -128,3 +128,92 @@ Per a la còpia completa mensual, guardada fora de l’empresa.
 **1 còpia fora de la ubicació física:**
 
 * La còpia al núvol xifrada
+
+Aquí tienes **exactamente el mismo contenido que me enviaste**, pero **pasado a formato Markdown**, **sin modificar nada del texto**:
+
+---
+
+# Document Final (Fase 3)
+
+## 1) Dades Objecte de Còpia
+
+Quines dades es copien i amb quina freqüència (separant Servidor/Clients i crítiques/no crítiques).
+
+### Datos del servidor de archivos Ubuntu Server
+
+| Tipos de datos                                                   | Volumen                            | Criticidad              | Frecuencia                                                                              |
+| ---------------------------------------------------------------- | ---------------------------------- | ----------------------- | --------------------------------------------------------------------------------------- |
+| Documentos de proyectos (Planos, especificaciones técnicas, etc) | 300 GB con un crecimiento moderado | Crítico                 | Diária: Incremental<br>Semanal: Completa<br>Mensual: Completa                           |
+| Base de datos (Compatibilidad y clientes)                        | 20 GB pero con cambios constantes  | Muy crítico             | Cada 4 horas: Incremental<br>Diaria: Completa<br>Semanal: Completa<br>Mensual: Completa |
+| Carpetas personales de los usuarios (Para el trabajo diario)     | 100 GB                             | Crítico o médio crítico | Diária: Incremental<br>Semanal: Completa                                                |
+
+### Datos de los clientes Windows 10/11
+
+Solo se realizan las copias de:
+
+| Tipos de datos                        | Criticidad              | Frecuencia                               |
+| ------------------------------------- | ----------------------- | ---------------------------------------- |
+| Carpeta de Documentos de los usuarios | Crítico o médio crítico | Diária: Incremental<br>Semanal: Completa |
+
+Solo hacemos copias de eso y sólo diaria y semanal por que los clientes trabajan directamente con datos que se encuentra en el servidor y solo hace falta hacer copias de la carpeta de documentos por que algunos clientes se guardan cosas o archivos de forma temporal en la carpeta de documentos.
+
+---
+
+## 2) Cronograma Setmanal Detallat
+
+| Dia       | Dades                                                                                         | Tipus de còpia                                                                                                      | Mitjà                                                            |
+| --------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Dilluns   | 1.Las bases de datos.<br>2.Los proyectos y las carpetas.<br>3.Del personal y de los clientes. | 1.Incrementales cada 4 horas a más una completa tarde de la noche tipo 23:00 h.<br>2.Incremental.<br>3.Incremental. | 1.NAS<br>2.NAS<br>3.NAS                                          |
+| Dimarts   | 1.Las bases de datos.<br>2.Los demás datos.                                                   | 1.Incrementales cada 4 horas.<br>2.Incremental.                                                                     | 1.NAS<br>2.NAS                                                   |
+| Dimecres  | 1.Las bases de datos.<br>2.Los demás datos.                                                   | 1.Incrementales cada 4 horas.<br>2.Incrementales.                                                                   | 1.NAS<br>2.NAS                                                   |
+| Dijous    | 1.Las bases de datos.<br>2.Los demás datos.                                                   | 1.Incrementales cada 4 horas.<br>2.Incrementales.                                                                   | 1.NAS<br>2.NAS                                                   |
+| Divendres | 1.Las bases de datos.<br>2.Los demás datos.                                                   | 1.Incrementales cada 4 horas.<br>2.Incrementales.                                                                   | 1.NAS<br>2.NAS                                                   |
+| Dissabte  | 1.Las bases de datos.<br>2.Los demás datos.                                                   | 1.Completa semanal.<br>2.Completa semanal.                                                                          | 1.NAS + Discos duros externos.<br>2.NAS + Discos duros externos. |
+| Diumenge  | 1.Las bases de datos.<br>2.Los demás datos.                                                   | Si es el primer domingo del mes tendría que ser copias completas mensuales.                                         | Cloud cifradas ya que así serían copias externas y seguras.      |
+
+---
+
+## 3) Elecció de Mitjans i Ubicació (Regla 3-2-1)
+
+### · Mitjà 1 (Local)
+
+NAS interno con un RAID 5
+-Estaría ubicado en el centro de procesamientos de datos de la empresa.
+-Estaría almacenado todas las copias incrementales como también las copias completas semanales.
+-Tendría un acceso rápido por si hace falta hacer restauraciones rápidas.
+-El RAID 5 es por si falla algún disco.
+
+### · Mitjà 2 (Extern)
+
+Disco duro externo con USB
+-Estaría comentado solo durante la realización de las copias de seguridad semanales y de las mensuales.
+-Tendría una protección por ejemplo contra las fallas eléctricas, etc.
+-Podríamos dejarlo en una caja fuerte dentro del centro de procesamientos de datos o fuera de la empresa en algún lugar seguro.
+
+### · Ubicació Fora de Lloc
+
+Cloud y estaría subido en la nube
+-Tendría una ubicación segura en la nube.
+-Tendría una copia cifrada.
+-El responsable sería el departamento de IT de la empresa y tendrían que hacer una tipo validación mensual de la integridad.
+
+---
+
+## 4) Estratègia de Recuperació (RTO/RPO)
+
+Com es garanteix que les dades de Comptabilitat/Clients compleixen amb el requisit de RPO (4 hores) i RTO (4 hores).
+
+Primero que todo tenemos que dejar claro que el RPO no es lo mismo que el RTO, el RPO es como un máximo de pérdida de 4 horas y el RTO es la restauración completa en menos de 4 horas.
+
+Para garantizar el cumplimiento de la base de datos de contabilidad y de los clientes que cumplan con el requisito RPO y RTO haremos lo siguiente:
+
+**RPO = Máximo de 4 horas de pérdida.**
+Haremos copias de seguridad incrementales cada 4 horas de la base de datos y en caso de un error siempre tendrá que haber un punto de restauración menor a 4 horas.
+
+**RTO = Restauración completa en menos de 4 horas.**
+Las copias tendrían que guardarse en el NAS interno y tendría que tener acceso directo y ancho de banda interno un poco elevado. A más una restauración de la base de datos de 20 GB desde el NAS. También tendría que haber un sistema de restauración automatizado.
+
+**Algunos escenarios de recuperación:**
+-Falla del servidor: Tendríamos que hacer una restauración desde el NAS
+-Ransomware en el servidor: Si por algún caso no se podría usar el NAS tendríamos que hacer una restauración desde disco duro externo.
+-Desastres físicos: Tendríamos que hacer una restauración desde el Cloud mensual que tardaria mucho más o como las bases de datos tendrán una copia semanal en el disco duro externo podríamos hacer la restauración desde ahí
